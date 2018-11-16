@@ -26,13 +26,16 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        firststart.cpp
+        firststart.cpp \
+    greetinginfo.cpp
 
 HEADERS += \
-        firststart.h
+        firststart.h \
+    greetinginfo.h
 
 FORMS += \
-        firststart.ui
+        firststart.ui \
+    greetinginfo.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

@@ -6,6 +6,9 @@ FirstStart::FirstStart(QWidget *parent) :
     ui(new Ui::FirstStart)
 {
     ui->setupUi(this);
+    greetingInfo = new GreetingInfo(this);
+    ui->stackedWidget->addWidget(greetingInfo);
+    ui->stackedWidget->setCurrentWidget(greetingInfo);
 }
 
 FirstStart::~FirstStart()

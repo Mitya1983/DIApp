@@ -3,6 +3,8 @@
 
 #include <QWidget>
 
+#include "greetinginfo.h"
+
 namespace Ui {
 class FirstStart;
 }
@@ -17,6 +19,7 @@ public:
 
 private:
     Ui::FirstStart *ui;
+    GreetingInfo *greetingInfo;
 };
 
 #endif // FIRSTSTART_H
